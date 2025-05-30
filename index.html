@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Profile</title>
+  <style>
+    body {
+      background-image: url('background1.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      font-family: Tahoma, sans-serif;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header-bar {
+      background-color: #ffffff;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .header-bar h1 {
+      color: rgb(10, 39, 156);
+      margin: 0;
+    }
+
+    .nav-bar {
+      background-color: #ffffff;
+      padding: 12px 0;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .nav-bar a {
+      margin: 0 20px;
+      color: rgb(0, 25, 153);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      max-width: 1100px;
+      margin: 50px auto;
+    }
+
+    .left {
+      width: 60%;
+      padding: 30px;
+      background-image: url('background.jpeg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      -webkit-text-stroke: 0.6px black;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .foto-bebas {
+      text-align: center;
+      width: 40%;
+    }
+
+    .foto-bebas img {
+      width: 600px;
+      max-width: 100%;
+      animation: fadeIn 1.2s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-bar">
+    <h1>My Profile</h1>
+  </div>
+
+  <div class="nav-bar">
+    <a href="index.html">My Profile</a>
+    <a href="karakter.html">Favorite Character</a>
+  </div>
+
+  <div class="content">
+    <div class="foto-bebas">
+      <img src="Nelly!.png" alt="Nelly" />
+    </div>
+    <div class="left">
+      <h2>About Me</h2>
+      <p>
+        I'm Nelly So Putri, I'm a student at Santa Laurensia Junior High School and I really love graphic design and art. I'm an 8th grader and my birthday is 23rd August 2011, making me 13 years old. I live in Tangerang, Banten, Indonesia. I also enjoy playing games and reading books in my free time.
+      </p>
+      <ul>
+        <li>🌍 Home: Tangerang</li>
+        <li>🎮 Hobby: Reading and playing games</li>
+        <li>🎂 Birthday: 23 August 2011</li>
+        <li>💡 Skill: Graphic design & Art</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
